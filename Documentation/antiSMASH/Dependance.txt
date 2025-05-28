@@ -1,0 +1,5 @@
+#need to be downloaded and installed
+https://www.python.org/downloads/
+https://dl.secondarymetabolites.org/releases/7.0.0/antismash-7.0.0.tar.gz
+https://docs.antismash.secondarymetabolites.org/install/
+

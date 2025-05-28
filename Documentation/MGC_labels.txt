@@ -1,0 +1,50 @@
+#antiSMASH:
+https://docs.antismash.secondarymetabolites.org/glossary/
+#gutSMASH:
+https://gutsmash-documentation.readthedocs.io/en/latest/Glossary.html#gene-cluster-types
+
+#For example, the MGC types of gutSMASH:
+No.	labels of MGCs
+1	Fumarate2succinate
+2	porA
+3	p-cresol
+4	TMA
+5	bai_operon
+6	NADH_dehydrogenase_I
+7	Pyruvate2acetate-formate
+8	proline2aminovalerate
+9	succinate2propionate
+10	PFOR_II_pathway
+11	TPP_AA_metabolism
+12	Others_HGD_unassigned
+13	Flavoenzyme_lipids
+14	Glycine_reductase
+15	TPP_fatty_acids
+16	OD_AA_metabolism
+17	Rnf_complex
+18	Flavoenzyme_AA_peptides
+19	Glycine_cleavage
+20	OD_fatty_acids
+21	Oxidative_glycerol
+22	Hydroxy-L-proline2proline
+23	Putrescine2spermidine
+24	GR_eut-pdu-related
+25	Lysine_degradation
+26	glutamate2butyric
+27	aminobutyrate2Butyrate
+28	acetate2butyrate
+29	Arginine2putrescine
+30	Leucine_reduction
+31	Formate_dehydrogenase
+32	gallic_acid_met
+33	Molybdopterin_dependent_oxidoreductase
+34	Nitrate_reductase
+35	caiTABCDE
+36	Ech_complex
+37	Respiratory_glycerol
+38	Threonine2propionate
+39	EUT_pathway
+40	histidine2glutamate_hutHGIU_operon
+41	pdu
+42	GR_AA_metabolism
+43	Arginine2_Hcarbonate
