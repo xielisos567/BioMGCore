@@ -3,7 +3,9 @@ BioMGCore is designed to determine the biological metabolic gene clusters in mic
 
 ## Dependencies
 gutSMASH: https://gutsmash.bioinformatics.nl/
+
 antiSMASH: https://antismash.secondarymetabolites.org/
+
 Python3: https://www.python.org/downloads/
 
 ### Repository
@@ -23,18 +25,18 @@ antismash --taxon bacteria --output-dir examples/thiopeptide/results_genome_file
 ```
 
 ### 2. Sequences extraction
-#### 2-1. Sequence extraction for gutSMASH (example):
+#### 2-1. Sequence extraction for gutSMASH (e.g., species-level extraction):
 ```
 python3  BioMGCore.py  -n  caiTABCDE  -i  examples/caiTABCDE  -o output_caiTABCDE -g 5 -t s
 ```
-#### 2-2. Sequence extraction for antiSMASH (example):
+#### 2-2. Sequence extraction for antiSMASH (e.g., thiopeptide extraction):
 ```
 python3  BioMGCore.py  -n  thiopeptide  -i  examples/thiopeptide  -o  output_thiopeptid
 ```
 
 ### 3. Statistics for antiSMASH annotations:
 ```
-python3  antiSTAT.py -i  data_path_antiSMASH_annotation -o  ./statistics.xlsx
+python3 antiSTAT.py -i data_path_antiSMASH_annotation -o ./statistics.xlsx
 ```
 
 
